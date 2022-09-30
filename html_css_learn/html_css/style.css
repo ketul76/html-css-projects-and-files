@@ -1,0 +1,12 @@
+.flex-container{
+background-color: indianred;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.flex-item{
+  margin: 10px;
+  padding:10px;
+  width: 100px;
+  background-color: bisque;
+}

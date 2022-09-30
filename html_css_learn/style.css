@@ -1,0 +1,18 @@
+*{
+box-sizing: border-box;
+}
+
+
+.container{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+  height: 100%;
+  background-color: aqua;
+  align-items: center !important;
+  height: 500px;
+}
+.item{
+  height: 50px;
+  background-color: indianred;
+}

@@ -1,0 +1,14 @@
+.container{
+background-color: indianred;
+width: 700px;
+height: 500px;
+display: grid;
+column-gap: 1px;
+row-gap: 1px;
+
+}
+.item{
+width: 100px;
+height: 100px;
+background-color: bisque;
+}

@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif;
+    background : linear-gradient(to right ,#007991 , #78ffd6);   
+}
+.container > div{
+    color: #fff;
+    background-color: rgba(0,0,255,0.2);
+    border : 1px solid #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.container > div:hover{
+    background-color: red;
+}
+
+
+/* justify Content */
+/* .container{
+    display: flex;
+    height: 500px;
+    border: 10px solid black;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+h1{
+    font-size: 50px;
+    color: black;
+} */
+
+
+/*Wrap*/
+/* 
+.container{
+    border: 2px solid black;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+
+/* Order */
+/* .container{
+    display: flex;
+    width: 700px;
+    border: 2px solid black;
+
+}
+.one{
+    order: -2;
+}
+.two{
+    order: -1;
+}
+.container div:nth-child(6){
+    order: -3;
+}
+
+ */
+
+/* grow */
+.container{
+    display: flex;
+    border: 2px solid black;
+    width: 1000px;
+}
+.container > div{
+    flex-grow: 1;
+}
+.container div:nth-child(2){
+    flex-grow: 2;
+}
+
+
+
+
+
+
+
+

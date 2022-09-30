@@ -1,0 +1,31 @@
+.flex-container{
+background-color: indianred;
+display: flex;
+/* flex-flow: row wrap;
+justify-content: center; 
+height: 80vh;
+align-items: center;*/
+flex-wrap: wrap;  
+}
+.flex-child{
+background-color: wheat;
+margin: 20px;
+padding: 20px;
+width:100px;
+text-align: center;
+}
+#one{
+  align-self: flex-start;
+  /* flex-shrink: 3; */
+  /* flex-grow: 1; */
+}
+#two{
+  align-self: center;
+  /* flex-shrink: 3; */
+  /* flex-grow: 2; */
+}
+#three{
+  align-self: flex-end;
+  /* flex-shrink: 3; */
+  /* flex-grow: 1; */
+}

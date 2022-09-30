@@ -1,0 +1,16 @@
+p{
+    /* background-color: darkcyan;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder; */
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 3px;
+    /* margin: 50px;
+    padding : 100px; */
+    background-color: aqua;
+    padding: 50px;
+    background-image: url('note.jpg');
+    background-repeat: no-repeat;
+}

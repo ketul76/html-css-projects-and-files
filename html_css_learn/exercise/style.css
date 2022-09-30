@@ -1,0 +1,9 @@
+.flex{
+ background-color: indianred;
+ display: grid;
+}
+.flex > div{
+ background-color: aqua;
+ padding: 20px;
+ margin: 20px;
+}

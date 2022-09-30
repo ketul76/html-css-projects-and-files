@@ -1,0 +1,11 @@
+.borders{
+    border-style: solid;
+    width: 500px;
+    min-height: 100px;
+    border-color: aqua;
+}
+.background{
+    background-color: brown;
+    width: 500px;
+    min-height: 510px;
+}
